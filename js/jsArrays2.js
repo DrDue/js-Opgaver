@@ -1,5 +1,5 @@
 'use strict'
-
+let s = prompt( 'tilføj det ord du vil finde ud af om er et palindrom' );
 
 function first( s ) {
   return s.charAt( 0 );
@@ -16,7 +16,8 @@ function middle( s ) {
 function isPalindrome( palindrome ) {
   if ( palindrome.length <= 1 )
     return true;
-  if ( first( palindrome ) === last( palindrome ) && isPalindrome( middle( palindrome ) ) return true;
-    else
-      return false;
-  }
+  if ( first( palindrome ) === last( palindrome ) && isPalindrome( middle( palindrome ) ) )
+    return true;
+  else
+    return false;
+}
