@@ -1,5 +1,5 @@
 'use strict'
-let s = prompt( 'tilføj det ord du vil finde ud af om er et palindrom' );
+
 
 function first( s ) {
   return s.charAt( 0 );

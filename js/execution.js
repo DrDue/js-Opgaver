@@ -11,6 +11,7 @@ document.write( `<hr/>` );
 
 document.write( `<h2>JS.Arrays.2</h2>` );
 
+let s = prompt( 'tilføj det ord du vil finde ud af om er et palindrom' );
 document.write( `<p>Is it a palindrome: ${isPalindrome(s)}</p>` );
 
 document.write( `<hr/>` );
