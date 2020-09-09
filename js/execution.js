@@ -28,7 +28,3 @@ if ( arr.includes(x) ) {
 
 let y = Number( window.prompt(`What dice number (1-6) will you see the amount it's been rolled?`));
 document.write(`<p>the number ${y} has been rolled ${arr[y]} times</p>`);
-
-document.write( `<hr/>` );
-
-document.write( `<h2>JS.Loops.2.2</h2>` );
