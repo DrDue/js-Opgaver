@@ -31,4 +31,4 @@ document.write(`<p>the number ${y} has been rolled ${arr[y]} times</p>`);
 
 document.write( `<hr/>` );
 
-document.write( `<h2>JS.Arrays.3</h2>` );
+document.write( `<h2>JS.Loops.2.2</h2>` );
