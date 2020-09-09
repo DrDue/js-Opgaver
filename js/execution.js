@@ -37,5 +37,4 @@ let b = isPrime( arg );
 
 document.write( `Is ${arg} a prime: ${b} <br>` );
 
-
 document.write( `<hr/>` );
