@@ -29,7 +29,6 @@ if ( arr.includes(x) ) {
 let y = Number( window.prompt(`What dice number (1-6) will you see the amount it's been rolled?`));
 document.write(`<p>the number ${y} has been rolled ${arr[y]} times</p>`);
 
-// let c = Number( window.prompt( 'Enter temp in C' ) );
-// document.write( `<p>${c} &deg;C = ${C2F(c)}&deg;F</p>` );
-// let f = Number( window.prompt( 'Enter temp in F' ) );
-// document.write( `<p>${f} &deg;F = ${F2C(f)}&deg;C</p>` );
+document.write( `<hr/>` );
+
+document.write( `<h2>JS.Arrays.3</h2>` );
