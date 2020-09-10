@@ -26,5 +26,15 @@ if ( arr.includes( x ) ) {
   document.write( `<p>Alle terninger har ikke slået det samme :(</p>` );
 }
 
-let y = Number( window.prompt( `What dice number (1-6) will you see the amount it's been rolled?` ) );
-document.write( `<p>the number ${y} has been rolled ${arr[y]} times</p>` );
+let y = Number( window.prompt(`What dice number (1-6) will you see the amount it's been rolled?`));
+document.write(`<p>the number ${y} has been rolled ${arr[y]} times</p>`);
+
+document.write( `<h2>JS.Loops.2.2</h2>` );
+
+let arg = Number( window.prompt( 'Add a number to see if its a prime' ) );
+
+let b = isPrime( arg );
+
+document.write( `Is ${arg} a prime: ${b} <br>` );
+
+document.write( `<hr/>` );
