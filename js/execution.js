@@ -20,7 +20,7 @@ document.write( `<h2>JS.Arrays.3</h2>` );
 
 let x = Number( window.prompt( `How many time do you wanna roll the dice?` ) );
 let arr = play( x );
-if ( arr.includes(x) ) {
+if ( arr.includes( x ) ) {
   document.write( `<p>alle terninger har ramt den samme :o</p>` );
 } else {
   document.write( `<p>Alle terninger har ikke slået det samme :(</p>` );
