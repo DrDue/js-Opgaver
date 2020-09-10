@@ -25,8 +25,3 @@ if ( x in arr ) {
 } else {
   document.write( `Alle terninger har ikke slået det samme :(` );
 }
-
-// let c = Number( window.prompt( 'Enter temp in C' ) );
-// document.write( `<p>${c} &deg;C = ${C2F(c)}&deg;F</p>` );
-// let f = Number( window.prompt( 'Enter temp in F' ) );
-// document.write( `<p>${f} &deg;F = ${F2C(f)}&deg;C</p>` );
