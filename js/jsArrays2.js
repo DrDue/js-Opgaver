@@ -1,6 +1,5 @@
 'use strict'
 
-
 function first( s ) {
   return s.charAt( 0 );
 }

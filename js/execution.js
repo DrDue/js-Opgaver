@@ -6,8 +6,9 @@ document.write( `<h2>JS.Arrays.1</h2>` );
 document.write( `<p>Flip coin: ${flipCoin()}</p>` );
 document.write( `<p>Roll die: ${rollDice()}</p>` );
 
-
 document.write( `<hr/>` );
+
+
 
 document.write( `<h2>JS.Arrays.2</h2>` );
 
@@ -15,6 +16,8 @@ let s = prompt( 'tilføj det ord du vil finde ud af om er et palindrom' );
 document.write( `<p>Is ${s} a palindrome: ${isPalindrome(s)}</p>` );
 
 document.write( `<hr/>` );
+
+
 
 document.write( `<h2>JS.Arrays.3</h2>` );
 
@@ -28,6 +31,8 @@ if ( arr.includes( x ) ) {
 
 let y = Number( window.prompt( `What dice number (1-6) will you see the amount it's been rolled?` ) );
 document.write( `<p>the number ${y} has been rolled ${arr[y]} times</p>` );
+
+
 
 document.write( `<h2>JS.Loops.2.2</h2>` );
 
