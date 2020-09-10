@@ -5,7 +5,7 @@ function play( j ) {
 
   for ( let i = 0; i < j; i++ ) {
     let x = Math.random();
-    x = Math.floor( x * 1 + 1 );
+    x = Math.floor( x * 6 + 1 );
     dice[ x ]++;
     console.log( dice );
     var n = dice.includes( j );
